@@ -1,0 +1,9 @@
+num1=$1
+num2=$2
+echo "Primer parametro = " $num1
+echo "Segundo parametro = "$num2
+num=$num1
+num1=$num2
+num2=$num
+echo "Primero parametro = "$num1
+echo "Segundo parametro = "$num2
